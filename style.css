@@ -8,6 +8,7 @@
 @font-face {
     font-family: "GlacialIndifferenceBold", sans-serif;
     src: url(./assets/fonts/GlacialIndifference-Bold.otf);
+    font-weight: bold;
 }
 
 @font-face {
@@ -16,5 +17,46 @@
 }
 
 .GlacialIndiff{
-    font-family: "GlacialIndifference"
+    font-family: "GlacialIndifference", sans-serif
+}
+
+
+/* main */
+
+.navbar{
+    width: 100%;
+    height: 65px; /* Not using vh to prevent shrinking */
+    padding: 5px 10px 5px 10px;
+    /* Prevents padding from extending width by using inner space instead */
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background-color: #134074;
+}
+
+.navText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: .725;
+} 
+
+.nav-bar-jumper a{
+    font-size: 1.25em;
+    color: white;
+    text-decoration: none;
+
+    transition: .2s;
+}
+
+.nav-bar-jumper a:hover{
+    color: gray;
 }
