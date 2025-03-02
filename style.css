@@ -95,8 +95,9 @@ body { margin: 0; padding: 0; }
     background-color: #134074;
 }
 
-.leftfoot{
-
+.leftfoot img{
+    width: 40px;
+    height: 40px;
 }
 
 .rightfoot{
