@@ -74,7 +74,7 @@ body { margin: 0; padding: 0; }
     justify-content: center;
     align-items: center;
     background-color: #13315c;
-    background-image: linear-gradient(to bottom,#13315c 80%,#8da9c4);
+/*     background-image: linear-gradient(to bottom,#13315c 80%,#8da9c4); */
     background-size: cover;
     
 }
