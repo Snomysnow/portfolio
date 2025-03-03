@@ -139,7 +139,10 @@ body { margin: 0; padding: 0; }
 
 .leftart{
     background-color: #eef4ed;
-    padding: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
 }
 
 /* .arrows{
@@ -158,6 +161,7 @@ body { margin: 0; padding: 0; }
 .art-item img{
     height: 500px;
     width: 500px;
+    margin: 20px;
 }
 
 .Resumebutton{
