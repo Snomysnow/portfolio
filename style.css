@@ -124,6 +124,11 @@ body { margin: 0; padding: 0; }
 
 .Projects a{
     text-decoration: none;
+    color: rgb(69, 94, 235);
+}
+
+.Projects a:hover{
+    color: #3d1404;
 }
 
 .Project1{
