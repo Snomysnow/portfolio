@@ -99,6 +99,8 @@ body { margin: 0; padding: 0; }
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #d3dbd2;
+    padding: 10px;
 }
 .rightabout{
     align-self: flex-end;
