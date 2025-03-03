@@ -161,6 +161,11 @@ body { margin: 0; padding: 0; }
     height: 40px;
 }
 
+#mail{
+    background-color: white;
+    background-size: 50% auto;
+}
+
 .rightfoot{
     color: white;
     align-self: flex-end;
