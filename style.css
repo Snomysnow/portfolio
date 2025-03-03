@@ -181,6 +181,15 @@ body { margin: 0; padding: 0; }
     margin: 20px;
 }
 
+.art-item img:hover{
+    background-color: black;
+    background-size: cover;
+    transform: scale(0.98,0.98);
+    filter: drop-shadow(.5px .5px 2px); 
+    transition: .25s;
+}
+
+
 .Resumebutton{
     display: flex;
     align-items: center;
@@ -193,6 +202,10 @@ body { margin: 0; padding: 0; }
     padding: 15px;
     text-decoration: none;
     color: white;
+}
+
+.Resumebutton a:hover{
+    color: gray;
 }
 
 .footer{
