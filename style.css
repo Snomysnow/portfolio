@@ -262,6 +262,7 @@ body { margin: 0; padding: 0; }
 }
 
 .leftfoot{
+    align-self: flex-start;
     padding: 10px;
 }
 .leftfoot img{
@@ -285,3 +286,29 @@ body { margin: 0; padding: 0; }
 
 /* Media Query */
 
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+    .navText{
+        font-size: small;
+    }
+
+
+    .Project1 img{
+        height: 10vh;
+        width: 10vh;
+    }
+
+    .art-item img{
+        height: 25vh;
+    }
+
+    .leftfoot img{
+        height: 30px;
+        width: 30px;
+    }
+    .rightfoot{
+        font-size: smaller
+    }
+
+
+}
