@@ -25,6 +25,17 @@
     font-family: "GlacialIndifferenceBold", sans-serif;
 }
 
+/* Animations */
+
+@keyframes slide {
+    0% {margin-bottom: 250%; opacity: 0;}
+    100% {margin-bottom: 0%; opacity: 1;}
+}
+
+
+
+
+
 /* main */
 /* this makes the background color reach the whole width */
 body { margin: 0; padding: 0; }
@@ -90,6 +101,8 @@ body { margin: 0; padding: 0; }
 
 .welcometext{
     color: white;
+    animation-name: slide;
+    animation-duration: 1s;
 }
 
 .mainbody{
