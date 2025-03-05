@@ -289,9 +289,15 @@ body { margin: 0; padding: 0; }
 @media only screen and (min-width: 320px) and (max-width: 480px){
 
     .navText{
-        font-size: small;
+        font-size: 10pt;
+        flex: 1;
     }
 
+    .rightabout img{
+        min-width: 300px;
+        min-height: 300px;
+        
+    }
 
     .Project1 img{
         height: 10vh;
