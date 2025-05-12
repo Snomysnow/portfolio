@@ -178,14 +178,10 @@ body { margin: 0; padding: 0; }
     background-color: #eef4ed;
 }
 .Project1right{
-    background-color: gray;
-    background-size: cover;
-    
+
 }
 .Project1right img{
-    width: 30vh;
-    height: 30vh;
-    
+    height: 20vh;
 }
 
 .artflex{
@@ -289,6 +285,10 @@ body { margin: 0; padding: 0; }
     .navText{
         font-size: 10pt;
         flex: 1;
+    }
+
+    .leftabout p{
+        font-size: 1em;
     }
 
     .rightabout img{
