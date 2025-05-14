@@ -107,6 +107,7 @@ body { margin: 0; padding: 0; }
 .welcomeimg{
     align-self: flex-end;
     margin-left: 5vh;
+    margin-bottom: 1vh;
     padding: 0.5vh;
 }
 .welcomeimg img{
@@ -114,6 +115,7 @@ body { margin: 0; padding: 0; }
     height: 50vh;
     border: 2px solid #000;
     box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
 }
 
 .mainbody{
@@ -163,6 +165,7 @@ body { margin: 0; padding: 0; }
     display: flex;
     justify-content: center;
     font-size: 15pt;
+    text-align: center;
 }
 
 .skills-text span{
@@ -275,6 +278,13 @@ body { margin: 0; padding: 0; }
     width: 40px;
     height: 40px;
 }
+.leftfoot a{
+    text-decoration: none;
+    color: #d3dbd2;
+}
+.leftfoot a:hover{
+    color: #3d1404;
+}
 
 .leftfoot img:hover{
     transform: scale(0.9,0.9);
@@ -308,6 +318,7 @@ body { margin: 0; padding: 0; }
     .welcometext{
         align-self: center;
         padding-right: 0px;
+        padding-left: 5vh;
         padding-bottom: 10vh;
     }
     .rightabout{
