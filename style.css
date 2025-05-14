@@ -200,6 +200,7 @@ body { margin: 0; padding: 0; }
     display: flex;
     justify-content: center;
     font-size: large;
+    text-align: center;
 }
 
 /* .arrows{
@@ -289,6 +290,18 @@ body { margin: 0; padding: 0; }
     .navText{
         font-size: 10pt;
         flex: 1;
+    }
+
+    .welcomeimg img{
+        height: auto;
+        width: 20vh;
+        display: none;
+    }
+
+    .welcometext{
+        align-self: center;
+        padding-right: 0px;
+        padding-bottom: 10vh;
     }
 
     .leftabout p{
