@@ -91,7 +91,7 @@ body { margin: 0; padding: 0; }
     height: 40px;
 }
 
-.welcome img:hover{
+.welcometext img:hover{
     transform: scale(0.9,0.9);
 }
 
@@ -105,11 +105,14 @@ body { margin: 0; padding: 0; }
 }
 .welcomeimg{
     align-self: flex-end;
-    padding-left: 5vh;
+    margin-left: 5vh;
+    padding: 0.5vh;
 }
 .welcomeimg img{
     width: auto;
     height: 50vh;
+    border: 2px solid #000;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);
 }
 
 .mainbody{
@@ -147,12 +150,13 @@ body { margin: 0; padding: 0; }
     font-size: 2em;
 }
 
-/* .rightabout{
+.rightabout{
+    display: none;
     align-self: flex-end;
 }
 .rightabout img{
     height: 40vh;
-} */
+}
 
 .skills-text{
     display: flex;
@@ -224,6 +228,8 @@ body { margin: 0; padding: 0; }
 .art-item img{
     height: 50vh;
     margin: 20px;
+    border: 2px solid #000;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);
 }
 
 .art-item img:hover{
@@ -303,14 +309,17 @@ body { margin: 0; padding: 0; }
         padding-right: 0px;
         padding-bottom: 10vh;
     }
-
+    .rightabout{
+        display: flex;
+    }
     .leftabout p{
         font-size: 1em;
     }
 
     .rightabout img{
-        height: 30vh;
-        
+        width: 35vh;
+        height: auto;
+        box-shadow: 0 0 8px 8px #fff inset;
     }
 
     .Project1 img{
